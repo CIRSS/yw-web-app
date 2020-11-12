@@ -80,7 +80,7 @@ Perform the following steps on a computer running Linux, MacOS, or Windows.
 	```
     $ make run
 
-    docker run -it --rm -p 8080:8080 --volume C:/Users/tmcphill/GitRepos/yw-web-app:/mnt/yw-web-app tmcphillips/yw-web-app:latest bash -ic /mnt/yw-web-app/service/run.sh
+    docker run -it --rm -p 8080:8080 --volume C:/Users/tmcphill/GitRepos/yw-web-app:/mnt/yw-web-app cirss/yw-web-app:latest bash -ic /mnt/yw-web-app/service/run.sh
 
     --------------------------------------------------------------------------
     The YesWorkflow web app service has been started in the REPRO.
