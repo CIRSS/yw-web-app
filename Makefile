@@ -1,12 +1,10 @@
-TARGETS=.repro/Makefile.targets
+# detect if Make is running on Windows
+ifeq ('$(OS)', 'Windows_NT')
+PWSH=powershell -noprofile -command
+endif
 
-include ${TARGETS}/Makefile.init
+default_target: help
+
 include repro.config
-include ${TARGETS}/Makefile.setup
-include ${TARGETS}/Makefile.service
-#include ${TARGETS}/Makefile.examples
-#include ${TARGETS}/Makefile.code
-include ${TARGETS}/Makefile.image
-include ${TARGETS}/Makefile.docker
-include ${TARGETS}/Makefile.help
+include targets/*.makefile
 

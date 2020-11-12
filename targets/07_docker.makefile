@@ -1,5 +1,5 @@
 ## 
-## # Targets for managing Docker containers and images on the host.
+##    --- Targets for managing Docker containers and images on the host ---
 ## 
 
 ifndef IN_RUNNING_REPRO
@@ -32,7 +32,7 @@ else
 	for i in $$(docker images -aq); do docker rmi $$i; done
 endif
 
-## purge-docker:           Purge all Docker containers and images from computer.
+purge-docker:           ## Purge all Docker containers and images from computer.
 purge-docker: stop-all-containers kill-all-containers remove-all-containers remove-all-images
 
 endif

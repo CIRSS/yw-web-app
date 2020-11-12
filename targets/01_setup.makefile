@@ -1,4 +1,3 @@
-
 ifeq ('$(OS)', 'Windows_NT')
 PWSH=powershell -noprofile -command
 endif

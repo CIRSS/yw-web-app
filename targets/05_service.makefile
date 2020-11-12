@@ -1,5 +1,5 @@
 ## 
-## # Targets for managing the service provided by this REPRO.
+##    --- Targets for managing the service provided by this REPRO ---
 ## 
 
 start-service:          ## Start the service provided by this REPRO.
