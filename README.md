@@ -70,16 +70,22 @@ Perform the following steps on a computer running Linux, MacOS, or Windows.
     help:                    Show this help.
     ```
 
-3. Start the service:
+3. Start the service by invoking the `run` target:
 
 	```
-	tmcphill@circe:~/GitRepos/all-harvest-repro$ make clean
-	docker run -it --rm -p 8787:8787 --volume /mnt/c/Users/tmcphill/OneDrive/GitRepos/all-harvest-repro:/mnt/all-harvest-repro tmcphillips/all-harvest-repro:latest bash -ic 'make -C /mnt/all-har
-	vest-repro/analysis clean'
-	make: Entering directory '/mnt/all-harvest-repro/analysis'
-	rm -rf Harvest_All_Sectors.csv All_Harvest.html
-	make: Leaving directory '/mnt/all-harvest-repro/analysis'
+    $ make run
+
+    docker run -it --rm -p 8080:8080 --volume C:/Users/tmcphill/GitRepos/yw-web-app:/mnt/yw-web-app tmcphillips/yw-web-app:latest bash -ic /mnt/yw-web-app/service/run.sh
+
+    --------------------------------------------------------------------------
+    The YesWorkflow web app service has been started in the REPRO.
+    Connect to it by navigating in a web browser to http://localhost:8080
+
+    Terminate the service by typing CTRL-C in this terminal.
+    --------------------------------------------------------------------------
 	```
+
+4. Navigate to the web application in your browser at http://localhost:8080.
 
 ## Licensing
 
