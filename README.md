@@ -2,8 +2,8 @@
 
 ## Overview
 
-The purpose of this repo to enable the service supporting the YesWorkflow web application to be run on any computer that has Git, Docker, and GNU Make installed. The versions of Java and Graphviz required to run the service are preinstalled in a Docker image associated with this repo. This Docker image is used automatically by the targets in the Makefile as needed.  Makefile targets that use the Docker image mount the working directory within the running container. Any changes made to repository contents are reflected in the running container.  The Makefile in the top-level directory of the repository provides the means for running the 
-service, as well as for rebuilding the required Docker image.
+The purpose of this repo to enable the service supporting the YesWorkflow web application to be run on any computer that has Git, Docker, and GNU Make installed. The versions of Java and Graphviz required to run the service are preinstalled in a Docker image associated with this repo. This Docker image is used automatically by the targets in the Makefile as needed. The Makefile in the top-level directory of the repository provides the means for running the 
+service and rebuilding the required Docker image if necessary.
 
 ## Running the service
 
@@ -27,7 +27,7 @@ Perform the following steps on a computer running Linux, MacOS, or Windows.
 	There is NO WARRANTY, to the extent permitted by law.
 	```
 
-2. Clone this Git repo and `cd` to the top-level directory of the clone:
+2. Clone this repo and `cd` to its top-level directory:
 
 	```
 	$ git clone https://github.com/tmcphillips/yw-web-app.git
@@ -89,6 +89,6 @@ Perform the following steps on a computer running Linux, MacOS, or Windows.
 
 ## Licensing
 
-All of contents of this repo are licensed under the MIT license and therefore can be reused in products with more restrictive licenses. See https://mit-license.org/.
+All of contents of this repo are licensed under the MIT license. See https://mit-license.org/.
 
 
