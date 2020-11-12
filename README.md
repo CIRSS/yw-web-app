@@ -2,7 +2,12 @@
 
 ## Overview
 
-The purpose of this repo to enable the service supporting the YesWorkflow web application to be run on any computer that has Git, Docker, and GNU Make installed. The versions of Java and Graphviz required to run the service are preinstalled in a Docker image associated with this repo. This Docker image is used automatically by the targets in the Makefile as needed. The Makefile in the top-level directory of the repository provides the means for running the 
+The purpose of this repo to enable the service supporting the YesWorkflow web
+application to be run on any computer that has Git, Docker, and GNU Make
+installed. The versions of Java and Graphviz required to run the service are
+preinstalled in a Docker image associated with this repo. This Docker image is
+used automatically by the targets in the Makefile as needed. The Makefile in
+the top-level directory of the repository provides the means for running the 
 service and rebuilding the required Docker image if necessary.
 
 ## Running the service
