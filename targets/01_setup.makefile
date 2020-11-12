@@ -8,7 +8,7 @@ REPRO_CODE_DIR=./${REPRO_CODE}/
 REPRO_EXAMPLES_DIR = $(REPRO_DIR)/${REPRO_EXAMPLES}/
 
 REPRO_RUN_COMMAND=docker run -it --rm $(REPRO_DOCKER_OPTIONS)       \
-                     --volume $(CURDIR):$(REPRO_DIR)  \
+                     --volume $(CURDIR):$(REPRO_DIR)                \
                      $(REPRO_IMAGE)
 
 REPRO_SERVICE_COMMAND=${REPRO_DIR}/service/run.sh
