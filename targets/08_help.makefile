@@ -1,5 +1,5 @@
 ## 
-##    --- Targets for learning about this REPRO and Makefile ---
+## --- Targets for learning about this REPRO and Makefile ---
 ## 
 
 help:                   ## Show this help.

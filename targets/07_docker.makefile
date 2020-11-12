@@ -1,5 +1,5 @@
 ## 
-##    --- Targets for managing Docker containers and images on the host ---
+## --- Targets for managing Docker containers and images on the host ---
 ## 
 
 ifndef IN_RUNNING_REPRO

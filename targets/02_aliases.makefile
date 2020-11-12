@@ -1,5 +1,5 @@
 ## 
-##    --- Aliases for targets in this Makefile ---
+## --- Aliases for targets in this Makefile ---
 ## 
 
 # Define target aliases available both inside and outside a running REPRO

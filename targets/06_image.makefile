@@ -1,5 +1,5 @@
 ## 
-##    --- Targets for managing the Docker image for this REPRO ---
+## --- Targets for managing the Docker image for this REPRO ---
 ## 
 
 ifndef IN_RUNNING_REPRO
