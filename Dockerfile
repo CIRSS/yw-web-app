@@ -13,7 +13,7 @@ RUN echo '***** Install packages required for creating this image *****'        
     && apt -y install apt-utils wget curl makepasswd git                        \
                                                                                 \
     && echo '***** Install command-line utility packages *****'                 \
-    && apt -y install sudo less file tree graphviz
+    && apt -y install sudo less file tree make graphviz
 
 ENV MAVEN_REPO https://mirrors.gigenet.com/apache/maven/maven-3
 ENV MAVEN_VERSION 3.6.3
