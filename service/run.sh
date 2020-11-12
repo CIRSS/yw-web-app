@@ -12,7 +12,7 @@ echo "--------------------------------------------------------------------------
 echo "The YesWorkflow web app service has been started in the REPRO."
 echo "Connect to it by navigating in a web browser to http://localhost:8080 "
 echo
-echo "Terminate the service by typing CMD-C or CTRL-C in this terminal."
+echo "Terminate the service by typing CTRL-C in this terminal."
 echo "--------------------------------------------------------------------------"
 
 
