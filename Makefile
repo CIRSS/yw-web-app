@@ -6,5 +6,10 @@ endif
 default_target: help
 
 include repro.config
-include targets/*.makefile
+include targets/01_setup.makefile
+include targets/02_aliases.makefile
+include targets/05_service.makefile
+include targets/06_image.makefile
+include targets/07_docker.makefile
+include targets/08_help.makefile
 

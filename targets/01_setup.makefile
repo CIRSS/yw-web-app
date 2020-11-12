@@ -11,8 +11,8 @@ REPRO_RUN_COMMAND=docker run -it --rm $(REPRO_DOCKER_OPTIONS)       \
                      --volume $(CURDIR):$(REPRO_DIR)  \
                      $(REPRO_IMAGE)
 
-REPRO_SERVICE_COMMAND=${REPRO_DIR}/start_service.sh
-REPRO_SERVICE_DEBUG_COMMAND=${REPRO_DIR}/start_service_debug.sh 
+REPRO_SERVICE_COMMAND=${REPRO_DIR}/service/run.sh
+REPRO_SERVICE_DEBUG_COMMAND=${REPRO_DIR}/service/debug.sh 
 
 ifdef IN_RUNNING_REPRO
 RUN_IN_REPRO=bash -ic
