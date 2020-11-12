@@ -35,7 +35,7 @@ Perform the following steps on a computer running Linux, MacOS, or Windows.
 2. Clone this repo and `cd` to its top-level directory:
 
 	```
-	$ git clone https://github.com/tmcphillips/yw-web-app.git
+	$ git clone https://github.com/cirss/yw-web-app.git
     $ cd yw-web-app
 	```
 
