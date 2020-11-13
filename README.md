@@ -14,19 +14,19 @@ service and rebuilding the required Docker image if necessary.
 
 Perform the following steps on a computer running Linux, MacOS, or Windows.
 
-1. Ensure that Git, Docker, and GNU Make are installed:
+1. Ensure that Git, Docker, and GNU Make are installed (it is OK if the versions differ on your system):
 
 	```
 	$ git --version
-	git version 2.11.0
+	git version 2.29.1.windows.1d
 
 	$ docker --version
-	Docker version 19.03.5, build 633a0ea838
+	Docker version 19.03.13, build 4484c46d9d
 
 	$ make --version
-	GNU Make 4.1
-	Built for x86_64-pc-linux-gnu
-	Copyright (C) 1988-2014 Free Software Foundation, Inc.
+	GNU Make 4.3
+	Built for Windows32
+	Copyright (C) 1988-2020 Free Software Foundation, Inc.
 	License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 	This is free software: you are free to change and redistribute it.
 	There is NO WARRANTY, to the extent permitted by law.
