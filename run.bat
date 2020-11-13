@@ -1,1 +1,1 @@
-docker run -it --rm -p 8080:8080 --volume %cd%:/mnt/yw-web-app cirss/yw-web-app:latest /mnt/yw-web-app/service/run.sh
+@ docker run -it --rm -p 8080:8080 --volume %cd%:/mnt/yw-web-app cirss/yw-web-app:latest /mnt/yw-web-app/service/run.sh

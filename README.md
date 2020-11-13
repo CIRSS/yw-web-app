@@ -92,6 +92,25 @@ Perform the following steps on a computer running Linux, MacOS, or Windows.
 
 4. Navigate to the web application in your browser at http://localhost:8080.
 
+## Running the service on a Windows system without Make
+
+There are two alternatives for running the YesWorkflow web app service on Windows systems:
+
+- The preferred approach is install the Make utility using the `Chocolatey` package manager for Windows. Install [Chocolatey](https://chocolatey.org/install). Then install the [GNU make Chocolatey package](https://chocolatey.org/packages/make). The `make` command in the instructions above then will work correctly on a Windows system enabling all the features of this REPRO.
+
+- Alternatively, the YesWorkflow web app service may be run on Windows without installing GNU Make. Clone the [cirss/yw-web-app](https://github.com/cirss/yw-web-app) repository as in step 2 above.  Then invoke the `run.bat` Windows batch file in the top-level directory of the repository:
+
+	```
+    C:\Users\tmcphill\GitRepos\yw-web-app> .\run.bat
+
+    --------------------------------------------------------------------------
+    The YesWorkflow web app service has been started in the REPRO.
+    Connect to it by navigating in a web browser to http://localhost:8080
+
+    Terminate the service by typing CTRL-C in this terminal.
+    --------------------------------------------------------------------------	
+    ```
+
 ## Licensing
 
 All of contents of this repo are licensed under the MIT license. See https://mit-license.org/.
