@@ -31,15 +31,18 @@ Perform the following steps on a computer running Linux, MacOS, or Windows.
 	This is free software: you are free to change and redistribute it.
 	There is NO WARRANTY, to the extent permitted by law.
 	```
-
-2. Clone this repo and `cd` to its top-level directory:
+2. Clone this repo with options ensuring the line-endings are Linux-compatible on all platforms:
 
 	```
-	$ git clone https://github.com/cirss/yw-web-app.git
+	$ git clone https://github.com/cirss/yw-web-app.git --config core.eol=lf --config core.autocrlf=input
+    ```
+
+3. Then `cd` to the top-level directory of the repo:
+    ```
     $ cd yw-web-app
 	```
 
-3. Run `make` with no arguments to view the targets defined in the Makefile:
+4. Run `make` with no arguments to view the targets defined in the Makefile:
 
     ```
     $ make
@@ -75,7 +78,7 @@ Perform the following steps on a computer running Linux, MacOS, or Windows.
     help:                    Show this help.
     ```
 
-3. Start the service by invoking the `run` target:
+5. Start the service by invoking the `run` target:
 
 	```
     $ make run
@@ -90,7 +93,7 @@ Perform the following steps on a computer running Linux, MacOS, or Windows.
     --------------------------------------------------------------------------
 	```
 
-4. Navigate to the web application in your browser at http://localhost:8080.
+6. Navigate to the web application in your browser at http://localhost:8080.
 
 ## Running the service on a Windows system without Make
 
