@@ -1,5 +1,6 @@
 # YesWorkflow Web Application
 
+
 ## Overview
 
 The purpose of this repo to enable the service supporting the YesWorkflow web
@@ -94,6 +95,24 @@ Perform the following steps on a computer running Linux, MacOS, or Windows.
 	```
 
 6. Navigate to the web application in your browser at http://localhost:8080.
+
+## Running the service with GitHub Codespaces
+1. Create a Codespaces by clickling the link below
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/yilinxia/yw-web-app)
+2. Once the Codespaces created, you can start the service by invoking the `run` target:
+
+	```
+    $ make run
+
+    docker run -it --rm -p 8080:8080 --volume C:/Users/tmcphill/GitRepos/yw-web-app:/mnt/yw-web-app cirss/yw-web-app:latest bash -ic /mnt/yw-web-app/service/run.sh
+
+    --------------------------------------------------------------------------
+    The YesWorkflow web app service has been started in the REPRO.
+    Connect to it by navigating in a web browser to http://localhost:8080
+
+    Terminate the service by typing CTRL-C in this terminal.
+    ---------------
+3. Open the link (Note: If you encounter any error, you can refresh the page, or access the WebAPP from `PORTS -> Local Address`)
 
 ## Running the service on a Windows system without Make
 
