@@ -97,7 +97,7 @@ Perform the following steps on a computer running Linux, MacOS, or Windows.
 6. Navigate to the web application in your browser at http://localhost:8080.
 
 ## Running the service with GitHub Codespaces
-1. Create a Codespaces by clickling the link below
+1. Create a Codespaces by clicking
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/yilinxia/yw-web-app)
 2. Once the Codespaces created, you can start the service by invoking the `run` target:
 
@@ -112,7 +112,7 @@ Perform the following steps on a computer running Linux, MacOS, or Windows.
 
     Terminate the service by typing CTRL-C in this terminal.
     ---------------
-3. Open the link (Note: If you encounter any error, you can refresh the page, or access the WebAPP from `PORTS -> Local Address`)
+3. Open web application from `PORTS -> Local Address` 
 
 ## Running the service on a Windows system without Make
 
